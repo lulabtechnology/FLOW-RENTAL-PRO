@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-sand text-flow-dark;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-semibold tracking-tight text-flow-dark;
+}
+
+.section-subtitle {
+  @apply mt-2 text-sm md:text-base text-flow-dark/70 max-w-2xl;
+}
+
+.badge-pill {
+  @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-medium bg-flow-cream text-flow-dark/80 border border-flow-cream/70;
+}
